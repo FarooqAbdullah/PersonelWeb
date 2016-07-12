@@ -22,10 +22,10 @@ function wtpw_setup() {
 }
 add_action('after_setup_theme', 'wtpw_setup');
 
-
  /**
- * Theme Styles and Scripts
- */
+  * Theme Styles and Scripts
+  */
+
 function wtpw_styles_scripts() {
 
     // Theme Styles
@@ -36,10 +36,6 @@ function wtpw_styles_scripts() {
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri().'/js/bootstrap.js',array('jquery'),'',true);
      wp_enqueue_script( 'theme-js', get_template_directory_uri().'/js/theme.js',array('bootstrap-js'),'',true);
 
-   
 }
 
 add_action( 'wp_enqueue_scripts', 'wtpw_styles_scripts' );
-
-?>
-

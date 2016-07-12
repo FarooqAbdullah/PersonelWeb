@@ -1,20 +1,25 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!---<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
--->
 
-<?php wp_head(); ?>
+	<title>Personel Web</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<?php wp_head(); ?>
 
 </head>
+
 <body>
 
-<div class="container">
+
+<div class="container"> <!-- Main Container Start --> 
+
+	<header>   <!-- Header Start --> 
+
 	<div class="row top-header"></div>
-	
 
 	<div class="row mg-top">
 		
@@ -34,9 +39,14 @@
 
 	</div>
 
-		<div class="row">
+</header>	 <!-- Header Close --> 
 
-		  <div class="col-md-5 mg_top">
+
+
+<content>  <!-- Content Start --> 
+
+	<div class="row">
+			<div class="col-md-5 mg_top">
 			<p class="bold"> Available For </p>
 			<p class="cold"> Hire </p>
 			<p class="bold"> Website </p>
@@ -53,7 +63,7 @@
 			<a href="#"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
 		  </div>
 
-		 </div>
+		</div>
 
 
 
@@ -65,39 +75,30 @@
  		 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
 		 </div>
+	 </div>
 
-
-
-
-		</div>
 
 		<br><br>
 		<hr>
 
 		<div class="row fot">
 			<div class="col-md-6">
-
- 		 	   <p class="bold">Favourite Quote</p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy textally unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
+				<p class="bold">Favourite Quote</p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy textally unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 			</div>
 
 
 			<div class="col-md-6">
-
- 		 		<p class="bold">Recenet Project</p>Lorem Ipsum is simply ext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including of Lorem Ipsum.
-
-
+				<p class="bold">Recenet Project</p>Lorem Ipsum is simply ext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specng essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including of Lorem Ipsum.
 			</div>
 		</div>
 
+ </content> <!-- Content End --> 
 
 
 
+	<footer> <!-- Footer Start --> 
 		<div class="row top-header footer"><p>© 2015 All Rights Reserved. Terms of use and Privacy Policy</p></div>
-
-
-
-
+	</footer> <!-- Footer End --> 
 
 </div>
 
